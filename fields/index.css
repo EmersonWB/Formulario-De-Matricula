@@ -50,6 +50,14 @@ input[type="date"] {
   select {
     background:  url(../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
   }
+
+  .address > div {
+    gap: 1.25rem;
+  }
+
+  .input-wrapper:has([disable]) {
+    opacity: .5;
+  }
  
   
 
